@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-  A barber scheduling app that shows to the barber his agenda for the day.
+BarberShop system that connects clients and providers
 </h4>
 
 
