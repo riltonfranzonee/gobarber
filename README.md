@@ -1,24 +1,24 @@
+
 <h1 align="center">
-    <img alt="GoBarber Web" src="https://res.cloudinary.com/lukemorales/image/upload/v1564533051/readme_logos/gobarber_hg5ddx.png" />
-    <br>
-    GoBarber Web
+    <img src="https://user-images.githubusercontent.com/58868651/77218705-ee4c9f80-6b0c-11ea-9948-d6a72eb99cba.png" />
 </h1>
 
-<h4 align="center">
-BarberShop system that connects clients and providers
-</h4>
-
-
 <p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+Barbershop system that connects clients and providers - Web version made with ReactJS
 </p>
 
+💈 About GoBarber
+------------------
+This project is a system of a fictional barbershop called GoBarber. The full system has a [**web version**](https://github.com/riltonfranzonee/gobarber) made with ReactJS, an exclusive area for providers, where they are able to list all their appointments, change personal info and recieve notifications everytime a new appointment is created (also via email). The application also has a [**mobile version**](https://github.com/riltonfranzonee/gobarber-mobile) made with React Native, an exclusive area for clients, where they are able to create a new appointment with their favorite provider based on the available schedule. Besides that, the client is able to cancel the appointment (must be at most 2 hours before the appointment). All this system is served by a [**RESTful API**](https://github.com/riltonfranzonee/gobarber-api) made with Node.js.
 
-## :rocket: Technologies
+<img alt="1" src="https://user-images.githubusercontent.com/58868651/77219064-d70fb100-6b10-11ea-9faf-f51cdcd0b45e.png">
+<img alt="2" src="https://user-images.githubusercontent.com/58868651/77219066-d840de00-6b10-11ea-834b-3863c93b68e0.png">
+<img alt="3" src="https://user-images.githubusercontent.com/58868651/77219067-d8d97480-6b10-11ea-8d63-e7967cce9051.png">
+<img alt="4" src="https://user-images.githubusercontent.com/58868651/77219068-d9720b00-6b10-11ea-8ee7-502992bbdd6f.png">
 
-This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
+:wrench: Used technologies:
+----------------------
+The web version of the application handles with a lot of data and information. To help me persist data and authenticate the provider I've used Redux and also Redux Saga for some async api calls. Intending to make the best user experience possible, I've also used awesome libraries such as React Toastify to handle with error/success messages. Here is a list of technlogies (at least what I remeber) that I used to develop the application:
 
 -  [ReactJS](https://reactjs.org/)
 -  [Create React App Configuration Override](https://github.com/sharegate/craco)
@@ -39,30 +39,32 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 -  [Reactotron](https://infinite.red/reactotron)
 -  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-## :information_source: How To Use
+## :information_source: How to use this project
+To clone and run this application, you'll need Git, NodeJS, Yarn and Docker. 
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer and the [GoBarber API](https://github.com/riltonfranzonee/gobarber-api). From your command line:
+You just need to run the following commands:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/riltonfranzonee/gobarber-web
+$ git clone https://github.com/riltonfranzonee/gobarber
 
 # Go into the repository
-$ cd gobarber-web
+$ cd gobarber
 
 # Install dependencies
-$ yarn install
+$ yarn
 
 # Run the app
 $ yarn start
 ```
 
+Make sure you have the [**RESTful API**](https://github.com/riltonfranzonee/gobarber-api) up and running.
 
-Made with ♥ by Rilton Franzone :wave: [Get in touch!](https://www.linkedin.com/in/rilton-franzone-b975a7198/)
+:speech_balloon: Reach me
+----------
 
-[nodejs]: https://nodejs.org/
-[yarn]: https://yarnpkg.com/
-[vc]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[*In case you want to reach me*](https://www.linkedin.com/in/rilton-franzone-b975a7198/)
 
+
+
+Thank you for taking a look at my project! Made with ♥
