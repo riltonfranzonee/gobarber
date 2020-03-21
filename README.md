@@ -37,7 +37,6 @@ The web version of the application handles with a lot of data and information. T
 -  [Yup](https://www.npmjs.com/package/yup)
 -  [date-fns](https://date-fns.org/)  
 -  [Reactotron](https://infinite.red/reactotron)
--  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
 ## :information_source: How to use this project
 To clone and run this application, you'll need Git, NodeJS, Yarn and Docker. 
